@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>******</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+    <!-- Additional CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+<body lp>
+
+<p lp>do you want to believe?</p lp>
+<div class="center">
+<form onSubmit="return checkAnswer();">
+        <input id="answer" type="text" maxlength="1" class="box" placeholder="Y/N" autofocus/>
+        <input type="submit" class="submit" value="ENTER"/>
+        </form>
+        <script>
+        function checkAnswer(){
+            var response = document.getElementById('answer').value;
+            if (response == "Y")
+                location = 'index2.html';   
+            else
+                location = 'index3.html'; 
+            return false;
+        }
+ </script>
+ </div>
+</body lp>
+</html>
